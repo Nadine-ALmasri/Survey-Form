@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please share your opinion by filling this form with the required information</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name-label"id="name-label">Enter Your Name: <input id="name" type="text" required placeholder="Your Name" name="name-label" /></label>
+            <label for="email-label"id="email-label">Enter Your Email: <input id="email" type="email" required placeholder="Your Email" name="email"/></label>
+            <label for="number-label"id="number-label">Enter Age <input id="number" type="number" min="15" max="99" required placeholder="Your Age" name="number-label"/></label>
+          </fieldset>
+          <fieldset>
+           <lable for="dropdown">Which of the following best describes your role?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Part Time Job</option>
+            <option value="4">Unemployed</option>
+            <option value="5">Other</option>
+        </select>
+          </lable>
+    <label for="how">How did you hear about us?        <select id="how"name="how">
+             <option value="">(select one)</option>
+             <option value="1">Friends</option>
+            <option value="2" >Social media</option>
+          <option value="3" >At univercity</option>
+         <option value="4" >Other</option>
+            </select>
+          </label>
+         </fieldset>
+          <fieldset>
+        <div id="options"><p>How do you describe your experiance with us?</p>
+        <label for="excellent"><input id="excellent" type="radio" name="good" class="choose" value="good"/>Excellent
+        </label>
+        <label for="Very-good"><input id="Very-good" type="radio" name="good"class="choose"  value="very-good"/> Very-good</label>
+        <label for="good"><input id="good" type="radio" name="good"class="choose" value="good" /> Good</label>
+        <label for="poor"><input id="poor" type="radio" name="good"class="choose" value="good"  /> Poor</label>
+    
+    </fieldset>
+<fieldset>
+              </div>
+              <label for="feedback">To offer you the best possible service, please provide us with any additional comments, suggestions or feedback that could help!
+                <textarea id="feedback" rows="6" cols="65"   name="feedback" class="choose"></textarea>
+              </label> </fieldset>
+              <fieldset class="space">
+              <label id="check">  I accept to share my opinon and informations<input type="checkbox" required  value="checkbox" class="checked" value="checked"/> </label>
+              <div class="term">
+              <label for="terms-and-conditions">I accept the terms and conditions
+                <input id="terms-and-conditions" type="checkbox" required class="checked" value="terms" /> 
+              </label></div>
+            </fieldset>
+          
+              <input type="submit" value="Submit"id="submit" />
+ </form>
+</body>
+</html>

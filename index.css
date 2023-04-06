@@ -1,0 +1,103 @@
+
+    
+
+body {
+    background: linear-gradient(#e66465, #9198e5);   
+   
+    margin: 0;
+   
+     color: #f5f6f7;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  #title  {
+    text-align: center;
+    font-size: 50px;
+    margin:1em auto;
+
+  }
+  #description {
+    text-align: center;
+    font-size: 20px;
+    margin:1em auto;
+
+  }
+  label #dropdown{
+    display: block;
+    padding: 15px 15px;
+
+  }
+  form  {
+    margin:0 auto ;
+    max-width: 500px ;
+    min-width:300px ;
+    width: 60vw ;
+    font-size: 1.1rem;
+    padding-bottom: 2em;
+   
+  
+  }
+  fieldset{
+    padding: 2rem 0 ;
+    border: 0;
+    border-bottom : 3px solid #795e76 ;
+
+  }
+  fieldset:last-of-type {
+    border-bottom : none ;
+   
+   }
+   input, textarea,select  {
+    width:100%;
+    margin-top :10px ;
+    margin-bottom:0 ;
+    margin-left:0 ;
+    margin-right:0 ;
+  }
+  .choose{
+    width: unset;
+    margin-right:0.5em;
+  margin-top:0;
+margin-left:0;
+margin-bottom:0;
+
+  }
+  input , textarea, select  {
+    background-color: #dbc4d7;
+    border : 2px solid #795e76;
+    min-height:2em;
+  }
+  select{
+    min-height: 2rem;
+   
+
+  }
+  #how{
+    margin-left: 0px;
+   
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 2em ;
+    font-size : 1.1rem;
+    background: linear-gradient(#e66465, #9198e5);
+    border-color: #616df0 ;
+  
+  }
+.checked ,input[type="radio"]  {
+   
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+    display:inline-block;
+    
+}
+    .space{
+        justify-content: space-between;
+        display: block;
+    }
+    input[type="radio"]{
+        justify-content: space-between;
+    }
+
